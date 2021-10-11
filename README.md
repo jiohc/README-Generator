@@ -1,7 +1,9 @@
-# 123
+# README Generator
   
+  ![MIT](https://img.shields.io/badge/license-MIT-green)
+
   ## Description 
-  123
+  Taking user input, create a good README file.
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -12,22 +14,24 @@
   * [Questions](#questions)
   
   ## Installation 
-  123
+  git clone
 
   ## Usage 
-  123
+  examples
 
   ## Collaborators
-  123
+  none
 
   ## License 
   This project is licensed under MIT
 
-  ## Contributing 
-  contact me
-
   ## Tests
-  npm run tests
+  undefined
+
+  ## Contributing 
+  undefined
+
+
 
   ## Questions
-  If you have any questions about this projects, please contact me directly at 123. You can view more of my projects at https://github.com/jiohc.
+  If you have any questions about this projects, please contact me directly at 123@gmail.com. You can view more of my projects at https://github.com/jiohc.

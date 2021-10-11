@@ -103,31 +103,14 @@ const questions = [
             type: 'list',
             name: 'license',
             message: 'What kind of license do you want to add to your project (Required)',
-            choices: ['MIT', 'APACHE', 'GPL', 'BSD', 'None']
+            choices: ['MIT', 'APACHE-2.0', 'GPL-3.0', 'BSD-2-Clause', 'None']
         },
     
 ]
 
 // second array of questions
 const extraQuestions = [
-        {
-            type: 'confirm',
-            name: 'confirmBadges',
-            message: 'Would you like to select any badges?',
-            default: true
-        },
-        {
-            type: 'input',
-            name: 'badges',
-            message: 'Please select badges.',
-            when: ({ confirmBadges }) => {
-                if (confirmBadges) {
-                    return true;
-                } else {
-                    return false;
-                }
-            }
-        },
+       
         {
             type: 'confirm',
             name: 'confirmTests',
@@ -155,7 +138,7 @@ const extraQuestions = [
         {
             type: 'input',
             name: 'contributes',
-            message: 'Please add guidelines for how other developers can contribute',
+            message: 'Please add guidelines for how other developers can contribute.',
             when: ({ confirmContributing }) => {
                 if (confirmContributing) {
                     return true;
