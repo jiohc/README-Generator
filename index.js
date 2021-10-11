@@ -177,8 +177,9 @@ function init() {
             const fileName = 'README.md';
             writeToFile(fileName, {...data,...data2})  
         });
-
+        
     });
 }
 // Function call to initialize app
 init();
+
